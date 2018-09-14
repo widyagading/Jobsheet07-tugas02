@@ -1,11 +1,8 @@
-
 package jobsheet07;
 import java.util.Scanner;
-public class tugas01 {
-    public static void main(String[] args)
+public class tugas1 {
+    public static void tampilJudul(String identitas)
     {
-        int[] nominal = {100, 500, 1000, 2000, 5000};
-        Scanner scan = new Scanner(System.in);
-        
-    }
+        System.out.println("Identitas: " + identitas);
+    }    
 }
