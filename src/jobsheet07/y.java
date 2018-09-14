@@ -14,3 +14,17 @@ public static void main(String[] args)
         int bayaran = 0;
         String identitas = "Widya Gading Sejati / XRPL2 / 38";        
         tampilJudul(identitas);
+        
+        System.out.print("Berat Maksimal: ");
+        int x = sistem.nextInt();
+        
+        for(int i = 0; i < arr.length; i++)
+        {
+            int hasil = x / arr[i];
+            x = x - (arr[i] * hasil);
+            bayaran += hasil * arr1[i];
+        }
+        System.out.println("Bayaran: " + bayaran);
+                
+    }
+}
